@@ -48,7 +48,7 @@ class SecurityServiceImplTest {
         assertEquals(9, page.getContent().get(1).getEmitentId());
         assertEquals(8, page.getContent().get(2).getEmitentId());
 
-        sortFilterPageableDTO.getPageableDTO().setPageNumber(1);
+        sortFilterPageableDTO.getPageableDTO().setPageNumber(2);
         page = securityService.findAll(sortFilterPageableDTO);
         assertEquals(4, page.getContent().get(0).getEmitentId());
         assertEquals(3, page.getContent().get(1).getEmitentId());
