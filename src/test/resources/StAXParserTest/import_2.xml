@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <data id="history">
+        <metadata>
+            <columns>
+                <column name="string" type="string" bytes="12" max_size="0" />
+            </columns>
+        </metadata>
+        <rows>
+            <row string="s21"/>
+            <row string="s22"/>
+            <row string="s23"/>
+        </rows>
+    </data>
+</document>
