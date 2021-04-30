@@ -17,4 +17,6 @@ public interface HistoryService {
     void deleteOneByKey(HistoryKey targetHistoryKey);
 
     void saveAll(List<History> historiesToSave);
+
+    List<History> deleteAllBySecid(String targetSecid);
 }

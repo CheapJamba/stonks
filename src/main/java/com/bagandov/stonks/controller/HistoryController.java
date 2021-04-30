@@ -47,4 +47,9 @@ public class HistoryController {
     public void deleteHistoryByKey(@RequestBody HistoryKey historyKey) {
         historyService.deleteOneByKey(historyKey);
     }
+
+    @DeleteMapping("deleteBySecid/{secid}")
+    public List<History> deleteHistoriesBySecid(@PathVariable String secid) {
+        return historyService.deleteAllBySecid(secid);
+    }
 }
